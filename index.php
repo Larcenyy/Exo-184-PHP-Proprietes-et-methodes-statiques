@@ -19,9 +19,15 @@ $dragon->setNom("");
 $princesse = new Princesse();
 
 // Creation d'ne instance de sorcier
-$sorcier = new Sorcier();
+//$sorcier = new Sorcier();
 
 
 
+// Ici je créer mes nouveaux dragons :
+$dragon = new Dragon();
+$dragon = new Dragon();
+$dragon = new Dragon();
 
+echo "Le nombre total d'instance de personnage est de  : " . Personnage::getNumInstances() . "<br>";
+echo "Le nombre total dragon créer est de  : " . Dragon::getNumDrag();
 
